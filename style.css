@@ -1,0 +1,102 @@
+body,html{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(245, 201, 247);
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    background-color: rgb(235, 235, 235);
+    width: 90%;
+    max-width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 1px 10px #572058;
+}
+.titulo{
+    background-color: #f682fa;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.login{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.form input{
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+
+
+}
+
+.form i{
+    background-color: #f682fa;
+    padding: 10px; 
+    border-radius: 5px 0 0 5px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.forgot{
+    align-self: flex-start;
+    margin-left: 65px;
+    font-size: 14px;
+    color: #f948ff;
+    text-decoration: none;
+    
+} 
+
+.forgot:hover{
+    color: black;
+}
+
+.botao{
+    
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
+    background-color: #f682fa;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(27, 27, 27);
+}
+
+.botao:hover{
+    background-color: #fbb3fd;
+    cursor: pointer;
+}
+
+.member{
+    font-size: 15px;
+    margin: 20px 0 20px 0;
+}
+
+.member a{
+    color: #f948ff;
+    text-decoration: none;
+}
+
+.member a:hover{
+    color: black;
+}
